@@ -30,7 +30,8 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    aboutText: "This is a weather application",
+    aboutText:
+      "This is a weather application that uses data from mapbox.com and weatherstack.com",
     name: "Scott",
   });
 });
